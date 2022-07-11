@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="Userstyle.css">
+
+        <title>Live battery percentage - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== BATTERY ===============-->
+        <h1> My info</h1>
+        <section class="battery">
+            <div class="battery__card">
+                <div class="battery__data">
+                    <p class="battery__text">Battery Level</p>
+                    <h1 class="battery__percentage">
+                        20%
+                    </h1>
+                    <p class="battery__status">
+                        Low battery <i class="ri-plug-line"></i>
+                    </p>
+                </div>
+
+                <div class="battery__pill">
+                    <div class="battery__level">
+                        <div class="battery__liquid"></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <h2 id="test"> Remaining Time :</h2>
+<div id="app"></div>
+          
+<h2 id="cars"> My car Details :</h2>
+            <!-- 
+
+
+
+
+             -->
+    
+        </section>
+           
+   
+        <style>
+
+          h1{
+            padding: 2%;
+          }
+          #test{
+            padding: 5%;
+          }
+          #cars{
+            padding: 5%;
+          }
+            body {
+          font-family: sans-serif;
+          display: grid;
+          height: 100vh;
+          place-items: center;
+        }
+        
+        .base-timer {
+          position: relative;
+          width: 300px;
+          height: 300px;
+        }
+        
+        .base-timer__svg {
+          transform: scaleX(-1);
+        }
+        
+        .base-timer__circle {
+          fill: none;
+          stroke: none;
+        }
+        
+        .base-timer__path-elapsed {
+          stroke-width: 7px;
+          stroke: grey;
+        }
+        
+        .base-timer__path-remaining {
+          stroke-width: 7px;
+          stroke-linecap: round;
+          transform: rotate(90deg);
+          transform-origin: center;
+          transition: 1s linear all;
+          fill-rule: nonzero;
+          stroke: currentColor;
+        }
+        
+        .base-timer__path-remaining.green {
+          color: rgb(65, 184, 131);
+        }
+        
+        .base-timer__path-remaining.orange {
+          color: orange;
+        }
+        
+        .base-timer__path-remaining.red {
+          color: red;
+        }
+        
+        .base-timer__label {
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          top: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 48px;
+        }
+            </style>
+            <script>
+                // Credit: Mateusz Rybczonec
+        
+        const FULL_DASH_ARRAY = 283;
+        const WARNING_THRESHOLD = 10;
+        const ALERT_THRESHOLD = 5;
+        
+        const COLOR_CODES = {
+          info: {
+            color: "green"
+          },
+          warning: {
+            color: "orange",
+            threshold: WARNING_THRESHOLD
+          },
+          alert: {
+            color: "red",
+            threshold: ALERT_THRESHOLD
+          }
+        };
+        
+        const TIME_LIMIT = 900;
+        let timePassed = 0;
+        let timeLeft = TIME_LIMIT;
+        let timerInterval = null;
+        let remainingPathColor = COLOR_CODES.info.color;
+        
+        document.getElementById("app").innerHTML = `
+        <div class="base-timer">
+          <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <g class="base-timer__circle">
+              <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"></circle>
+              <path
+                id="base-timer-path-remaining"
+                stroke-dasharray="283"
+                class="base-timer__path-remaining ${remainingPathColor}"
+                d="
+                  M 50, 50
+                  m -45, 0
+                  a 45,45 0 1,0 90,0
+                  a 45,45 0 1,0 -90,0
+                "
+              ></path>
+            </g>
+          </svg>
+          <span id="base-timer-label" class="base-timer__label">${formatTime(
+            timeLeft
+          )}</span>
+        </div>
+        `;
+        
+        startTimer();
+        
+        function onTimesUp() {
+          clearInterval(timerInterval);
+        }
+        
+        function startTimer() {
+          timerInterval = setInterval(() => {
+            timePassed = timePassed += 1;
+            timeLeft = TIME_LIMIT - timePassed;
+            document.getElementById("base-timer-label").innerHTML = formatTime(
+              timeLeft
+            );
+            setCircleDasharray();
+            setRemainingPathColor(timeLeft);
+        
+            if (timeLeft === 0) {
+              onTimesUp();
+            }
+          }, 1000);
+        }
+        
+        function formatTime(time) {
+          const minutes = Math.floor(time / 60);
+          let seconds = time % 60;
+        
+          if (seconds < 10) {
+            seconds = `0${seconds}`;
+          }
+        
+          return `${minutes}:${seconds}`;
+        }
+        
+        function setRemainingPathColor(timeLeft) {
+          const { alert, warning, info } = COLOR_CODES;
+          if (timeLeft <= alert.threshold) {
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.remove(warning.color);
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.add(alert.color);
+          } else if (timeLeft <= warning.threshold) {
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.remove(info.color);
+            document
+              .getElementById("base-timer-path-remaining")
+              .classList.add(warning.color);
+          }
+        }
+        
+        function calculateTimeFraction() {
+          const rawTimeFraction = timeLeft / TIME_LIMIT;
+          return rawTimeFraction - (1 / TIME_LIMIT) * (1 - rawTimeFraction);
+        }
+        
+        function setCircleDasharray() {
+          const circleDasharray = `${(
+            calculateTimeFraction() * FULL_DASH_ARRAY
+          ).toFixed(0)} 283`;
+          document
+            .getElementById("base-timer-path-remaining")
+            .setAttribute("stroke-dasharray", circleDasharray);
+        }
+            </script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="main.js"></script>
+
+
+        <!-- 
+
+
+
+
+
+
+
+
+
+
+         -->
+
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 
+
+     -->
+     <div class="center">
+        <div class="property-card">
+          <a href="#">
+            <div class="property-image">
+              <div class="property-image-title">
+                <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+              </div>
+            </div></a>
+          <div class="property-description">
+            <h5> EV Supera </h5>
+            <h4>Name :- test 1
+            </h4><br>
+            <h4>
+              ID :-1006
+            </h4>
+          </div>
+          <a href="#">
+            <div class="property-social-icons">
+              <!-- I would` usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+            </div>
+          </a>
+          <!-- 
+
+           -->
+    <!-- 
+
+     -->
+
+     
+    
+      <!-- 
+
+        
+       -->
+       
+
+
+      </div>
+     
+    <!-- 
+
+
+     -->
+     <div class="center">
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <div class="property-image-title">
+              <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+            </div>
+          </div></a>
+        <div class="property-description">
+          <h5> EV Audi </h5>
+          <h4>Name :- test 2
+          </h4><br>
+          <h4>
+            ID :-1007
+          </h4>
+        </div>
+        <a href="#">
+          <div class="property-social-icons">
+            <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          </div>
+        </a>
+    </div>
+   
+ <!-- 
+
+
+
+
+        CARDS   Design
+
+
+
+
+  -->
+      
+      <style>
+          body
+{
+  background-color:black;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h5
+{
+  color:black;
+  margin:0px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+  color: whitesmoke;
+}
+
+.center
+{
+  margin: 100px;
+  height:50vh;
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px grey, -15px -15px 27px #ffffff;
+}
+/* ^-- The margin bottom is necessary for the drop shadow otherwise it gets clipped in certain cases. */
+
+/* Top Half of card, image. */
+
+.property-image
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('https://i0.wp.com/www.greenoptimistic.com/wp-content/uploads/2017/03/93techrulestrev.jpg?resize=660%2C440&ssl=1');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.property-social-icons{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: slategray;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:0em;
+  padding:0px 1em;
+}
+.property-card:hover .property-image
+{
+  height:18em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:black;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  cursor:pointer;
+}
+
+
+
+.property-image-title
+{
+text-align:center;
+position:Relative;
+top:30%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:black;
+font-size:1.2em;
+}
+
+.property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+
+
+</style>
+
+      
+    
+</body>
+</html>

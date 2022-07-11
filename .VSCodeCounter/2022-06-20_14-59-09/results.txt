@@ -1,0 +1,256 @@
+Date : 2022-06-20 14:59:09
+Directory : c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots
+Total : 184 files,  104852 codes, 3323 comments, 5732 blanks, all 113907 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          1 |     41,190 |          0 |          0 |     41,190 |
+| HTML       |         14 |     26,965 |        258 |      2,061 |     29,284 |
+| CSS        |         34 |     20,149 |        247 |      1,608 |     22,004 |
+| SCSS       |        100 |      6,152 |      1,184 |      1,471 |      8,807 |
+| XML        |          6 |      5,334 |          0 |          2 |      5,336 |
+| JavaScript |         26 |      5,033 |      1,634 |        578 |      7,245 |
+| Markdown   |          3 |         29 |          0 |         12 |         41 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                           |        184 |    104,852 |      3,323 |      5,732 |    113,907 |
+| 3d-product-cards                                                                                                            |          5 |        435 |          2 |         27 |        464 |
+| 3d-product-cards\dist                                                                                                       |          3 |        328 |          2 |         20 |        350 |
+| 3d-product-cards\src                                                                                                        |          1 |        100 |          0 |          3 |        103 |
+| assets                                                                                                                      |         20 |      5,938 |      1,166 |        531 |      7,635 |
+| assets\css                                                                                                                  |          4 |      3,895 |        131 |        188 |      4,214 |
+| assets\fonts                                                                                                                |          3 |        597 |          0 |          2 |        599 |
+| assets\js                                                                                                                   |          8 |      1,267 |      1,018 |        324 |      2,609 |
+| assets\scss                                                                                                                 |          5 |        179 |         17 |         17 |        213 |
+| assets\scss\base                                                                                                            |          1 |         11 |          1 |          1 |         13 |
+| assets\scss\components                                                                                                      |          2 |        137 |          9 |         12 |        158 |
+| assets\scss\config                                                                                                          |          1 |         27 |          7 |          4 |         38 |
+| battery-level-indicator-main                                                                                                |          9 |        444 |         44 |         62 |        550 |
+| battery-level-indicator-main\assets                                                                                         |          7 |        402 |         40 |         52 |        494 |
+| battery-level-indicator-main\assets\csss                                                                                    |          1 |        177 |         17 |         29 |        223 |
+| battery-level-indicator-main\assets\jss                                                                                     |          1 |         46 |          6 |          6 |         58 |
+| battery-level-indicator-main\assets\scss                                                                                    |          5 |        179 |         17 |         17 |        213 |
+| battery-level-indicator-main\assets\scss\base                                                                               |          1 |         11 |          1 |          1 |         13 |
+| battery-level-indicator-main\assets\scss\components                                                                         |          2 |        137 |          9 |         12 |        158 |
+| battery-level-indicator-main\assets\scss\config                                                                             |          1 |         27 |          7 |          4 |         38 |
+| csss                                                                                                                        |          1 |        177 |         17 |         29 |        223 |
+| jss                                                                                                                         |          1 |         46 |          6 |          6 |         58 |
+| test                                                                                                                        |        118 |     88,430 |      1,210 |      4,404 |     94,044 |
+| test\css                                                                                                                    |         16 |     10,005 |         19 |      1,278 |     11,302 |
+| test\css\bootstrap                                                                                                          |         13 |        233 |          7 |         67 |        307 |
+| test\css\bootstrap\mixins                                                                                                   |         10 |          0 |          0 |         10 |         10 |
+| test\css\bootstrap\utilities                                                                                                |          1 |         10 |          0 |          1 |         11 |
+| test\fonts                                                                                                                  |          6 |     72,318 |          4 |      1,643 |     73,965 |
+| test\fonts\icomoon                                                                                                          |          6 |     72,318 |          4 |      1,643 |     73,965 |
+| test\fonts\icomoon\demo-files                                                                                               |          2 |        182 |          0 |          5 |        187 |
+| test\fonts\icomoon\fonts                                                                                                    |          1 |      1,530 |          0 |          0 |      1,530 |
+| test\js                                                                                                                     |          6 |        313 |         37 |         46 |        396 |
+| test\scss                                                                                                                   |         90 |      5,794 |      1,150 |      1,437 |      8,381 |
+| test\scss\bootstrap                                                                                                         |         89 |      5,350 |      1,134 |      1,391 |      7,875 |
+| test\scss\bootstrap\mixins                                                                                                  |         31 |        811 |        166 |        159 |      1,136 |
+| test\scss\bootstrap\utilities                                                                                               |         17 |        338 |         57 |        105 |        500 |
+| test\scss\bootstrap\vendor                                                                                                  |          1 |        126 |         43 |         36 |        205 |
+| the-news-reporter                                                                                                           |         13 |      4,555 |        518 |         80 |      5,153 |
+| the-news-reporter\assets                                                                                                    |         12 |      4,223 |        518 |         80 |      4,821 |
+| the-news-reporter\assets\css                                                                                                |          4 |        216 |         44 |         13 |        273 |
+| the-news-reporter\assets\font                                                                                               |          4 |      3,218 |          0 |          0 |      3,218 |
+| the-news-reporter\assets\font\fonts                                                                                         |          2 |      3,207 |          0 |          0 |      3,207 |
+| the-news-reporter\assets\js                                                                                                 |          4 |        789 |        474 |         67 |      1,330 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                    | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\3d-product-cards\README.markdown                                      | Markdown   |          7 |          0 |          4 |         11 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\3d-product-cards\dist\User.html                                       | HTML       |        113 |          2 |          5 |        120 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\3d-product-cards\dist\script.js                                       | JavaScript |          9 |          0 |          2 |         11 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\3d-product-cards\dist\style.css                                       | CSS        |        206 |          0 |         13 |        219 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\3d-product-cards\src\index.html                                       | HTML       |        100 |          0 |          3 |        103 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\Loch.html                                                             | HTML       |         58 |          3 |         20 |         81 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\README.md                                                             | Markdown   |         11 |          0 |          4 |         15 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\User.html                                                             | HTML       |        379 |         54 |         79 |        512 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\Userstyle.css                                                         | CSS        |        177 |         17 |         29 |        223 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\css\bootstrap.min.css                                          | CSS        |          1 |          6 |          0 |          7 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\css\flex-slider.css                                            | CSS        |        255 |         26 |          1 |        282 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\css\font-awesome.css                                           | CSS        |      2,327 |         10 |          0 |      2,337 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\css\templatemo-softy-pinko.css                                 | CSS        |      1,312 |         89 |        187 |      1,588 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\fonts\flexslider-icon.svg                                      | XML        |         19 |          0 |          0 |         19 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\fonts\fontawesome-webfont.svg                                  | XML        |        565 |          0 |          0 |        565 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\fonts\slick.svg                                                | XML        |         13 |          0 |          2 |         15 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\bootstrap.min.js                                            | JavaScript |          1 |          6 |          0 |          7 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\custom.js                                                   | JavaScript |         98 |         10 |         26 |        134 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\imgfix.min.js                                               | JavaScript |          1 |          0 |          0 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\jquery-2.1.0.min.js                                         | JavaScript |          3 |          1 |          0 |          4 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\jquery.counterup.min.js                                     | JavaScript |          1 |          7 |          0 |          8 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\popper.js                                                   | JavaScript |      1,161 |        986 |        298 |      2,445 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\scrollreveal.min.js                                         | JavaScript |          1 |          1 |          0 |          2 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\js\waypoints.min.js                                            | JavaScript |          1 |          7 |          0 |          8 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\scss\base\_base.scss                                           | SCSS       |         11 |          1 |          1 |         13 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\scss\components\_battery.scss                                  | SCSS       |        122 |          5 |         10 |        137 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\scss\components\_breakpoints.scss                              | SCSS       |         15 |          4 |          2 |         21 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\scss\config\_variables.scss                                    | SCSS       |         27 |          7 |          4 |         38 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\assets\scss\styles.scss                                               | SCSS       |          4 |          0 |          0 |          4 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\README.md                                | Markdown   |         11 |          0 |          4 |         15 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\assets\csss\styles.css                   | CSS        |        177 |         17 |         29 |        223 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\assets\jss\main.js                       | JavaScript |         46 |          6 |          6 |         58 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\assets\scss\base\_base.scss              | SCSS       |         11 |          1 |          1 |         13 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\assets\scss\components\_battery.scss     | SCSS       |        122 |          5 |         10 |        137 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\assets\scss\components\_breakpoints.scss | SCSS       |         15 |          4 |          2 |         21 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\assets\scss\config\_variables.scss       | SCSS       |         27 |          7 |          4 |         38 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\assets\scss\styles.scss                  | SCSS       |          4 |          0 |          0 |          4 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\battery-level-indicator-main\index.html                               | HTML       |         31 |          4 |          6 |         41 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\chargelist.js                                                         | JavaScript |      2,371 |          0 |         76 |      2,447 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\chargem.js                                                            | JavaScript |        110 |         87 |         37 |        234 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\csss\styles.css                                                       | CSS        |        177 |         17 |         29 |        223 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\detail.html                                                           | HTML       |        387 |         84 |         57 |        528 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\index.html                                                            | HTML       |        323 |         17 |         54 |        394 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\jss\main.js                                                           | JavaScript |         46 |          6 |          6 |         58 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\locator.html                                                          | HTML       |         96 |          5 |         42 |        143 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\login.html                                                            | HTML       |        212 |          0 |         34 |        246 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\main.html                                                             | HTML       |         10 |          0 |          2 |         12 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\main.js                                                               | JavaScript |         45 |          6 |          6 |         57 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\mapstyle.css                                                          | CSS        |         91 |          0 |          1 |         92 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\paycss.css                                                            | CSS        |        126 |          0 |         22 |        148 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\payment.html                                                          | HTML       |        138 |         33 |         15 |        186 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\script.js                                                             | JavaScript |          9 |          0 |          5 |         14 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\showslot.html                                                         | HTML       |        284 |         54 |        110 |        448 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap.min.css                                            | CSS        |      9,420 |          7 |      1,202 |     10,629 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\_media.css                                         | CSS        |         11 |          0 |          2 |         13 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\bootstrap-reboot.css                               | CSS        |        212 |          7 |         54 |        273 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_badge.css                                  | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_box-shadow.css                             | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_buttons.css                                | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_float.css                                  | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_nav-divider.css                            | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_reset-text.css                             | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_text-emphasis.css                          | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_text-hide.css                              | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_text-truncate.css                          | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\mixins\_transition.css                             | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\bootstrap\utilities\_stretched-link.css                      | CSS        |         10 |          0 |          1 |         11 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\owl.carousel.min.css                                         | CSS        |          1 |          5 |          0 |          6 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\css\style.css                                                    | CSS        |        351 |          0 |          9 |        360 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\fonts\icomoon\demo-files\demo.css                                | CSS        |        154 |          0 |          2 |        156 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\fonts\icomoon\demo-files\demo.js                                 | JavaScript |         28 |          0 |          3 |         31 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\fonts\icomoon\demo.html                                          | HTML       |     24,502 |          2 |      1,634 |     26,138 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\fonts\icomoon\fonts\icomoon.svg                                  | XML        |      1,530 |          0 |          0 |      1,530 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\fonts\icomoon\selection.json                                     | JSON       |     41,190 |          0 |          0 |     41,190 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\fonts\icomoon\style.css                                          | CSS        |      4,914 |          2 |          4 |      4,920 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\js\bootstrap.min.js                                              | JavaScript |          1 |          6 |          0 |          7 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\js\jquery-3.3.1.min.js                                           | JavaScript |          1 |          1 |          0 |          2 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\js\jquery.sticky.js                                              | JavaScript |        242 |         20 |         26 |        288 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\js\main.js                                                       | JavaScript |         66 |          1 |         20 |         87 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\js\owl.carousel.min.js                                           | JavaScript |          2 |          5 |          0 |          7 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\js\popper.min.js                                                 | JavaScript |          1 |          4 |          0 |          5 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_alert.scss                                       | SCSS       |         28 |         13 |         11 |         52 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_badge.scss                                       | SCSS       |         34 |         12 |          9 |         55 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_breadcrumb.scss                                  | SCSS       |         29 |          8 |          5 |         42 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_button-group.scss                                | SCSS       |        101 |         31 |         32 |        164 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_buttons.scss                                     | SCSS       |         87 |         22 |         29 |        138 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_card.scss                                        | SCSS       |        202 |         34 |         54 |        290 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_carousel.scss                                    | SCSS       |        142 |         30 |         26 |        198 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_close.scss                                       | SCSS       |         27 |          8 |          7 |         42 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_code.scss                                        | SCSS       |         36 |          6 |          7 |         49 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_custom-forms.scss                                | SCSS       |        388 |         45 |         75 |        508 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_dropdown.scss                                    | SCSS       |        152 |         16 |         24 |        192 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_forms.scss                                       | SCSS       |        206 |         71 |         54 |        331 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_functions.scss                                   | SCSS       |         54 |         19 |         14 |         87 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_grid.scss                                        | SCSS       |         28 |         15 |         10 |         53 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_images.scss                                      | SCSS       |         22 |         13 |          8 |         43 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_input-group.scss                                 | SCSS       |        129 |         32 |         33 |        194 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_jumbotron.scss                                   | SCSS       |         15 |          0 |          3 |         18 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_list-group.scss                                  | SCSS       |         94 |         25 |         31 |        150 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_media.scss                                       | SCSS       |          7 |          0 |          2 |          9 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_mixins.scss                                      | SCSS       |         32 |          9 |          7 |         48 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_modal.scss                                       | SCSS       |        166 |         34 |         38 |        238 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_nav.scss                                         | SCSS       |         78 |         19 |         24 |        121 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_navbar.scss                                      | SCSS       |        194 |         46 |         55 |        295 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_pagination.scss                                  | SCSS       |         59 |          4 |         11 |         74 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_popover.scss                                     | SCSS       |        142 |          5 |         25 |        172 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_print.scss                                       | SCSS       |         84 |         33 |         25 |        142 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_progress.scss                                    | SCSS       |         37 |          1 |          6 |         44 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_reboot.scss                                      | SCSS       |        265 |        134 |         85 |        484 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_root.scss                                        | SCSS       |         13 |          3 |          4 |         20 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_spinners.scss                                    | SCSS       |         40 |          8 |          8 |         56 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_tables.scss                                      | SCSS       |        121 |         28 |         37 |        186 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_toasts.scss                                      | SCSS       |         38 |          0 |          7 |         45 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_tooltip.scss                                     | SCSS       |         93 |          5 |         18 |        116 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_transitions.scss                                 | SCSS       |         17 |          0 |          4 |         21 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_type.scss                                        | SCSS       |         82 |         20 |         24 |        126 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_utilities.scss                                   | SCSS       |         17 |          0 |          1 |         18 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\_variables.scss                                   | SCSS       |        757 |        100 |        268 |      1,125 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\bootstrap-grid.scss                               | SCSS       |         18 |          6 |          6 |         30 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\bootstrap-reboot.scss                             | SCSS       |          4 |          7 |          2 |         13 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\bootstrap.scss                                    | SCSS       |         37 |          6 |          2 |         45 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_alert.scss                                | SCSS       |         11 |          0 |          3 |         14 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_background-variant.scss                   | SCSS       |         16 |          2 |          4 |         22 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_badge.scss                                | SCSS       |         15 |          0 |          3 |         18 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_border-radius.scss                        | SCSS       |         52 |          2 |         10 |         64 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_box-shadow.scss                           | SCSS       |         17 |          2 |          2 |         21 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_breakpoints.scss                          | SCSS       |         69 |         44 |         11 |        124 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_buttons.scss                              | SCSS       |         83 |         11 |         14 |        108 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_caret.scss                                | SCSS       |         55 |          0 |          8 |         63 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_clearfix.scss                             | SCSS       |          7 |          0 |          1 |          8 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_deprecate.scss                            | SCSS       |          5 |          5 |          1 |         11 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_float.scss                                | SCSS       |         12 |          1 |          2 |         15 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_forms.scss                                | SCSS       |        152 |         15 |         26 |        193 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_gradients.scss                            | SCSS       |         34 |          7 |          5 |         46 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_grid-framework.scss                       | SCSS       |         49 |          8 |         10 |         67 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_grid.scss                                 | SCSS       |         34 |         10 |          8 |         52 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_hover.scss                                | SCSS       |         23 |         10 |          5 |         38 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_image.scss                                | SCSS       |         13 |         16 |          8 |         37 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_list-group.scss                           | SCSS       |         17 |          1 |          4 |         22 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_lists.scss                                | SCSS       |          4 |          2 |          2 |          8 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_nav-divider.scss                          | SCSS       |          6 |          3 |          2 |         11 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_pagination.scss                           | SCSS       |         19 |          1 |          3 |         23 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_reset-text.scss                           | SCSS       |         16 |          1 |          1 |         18 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_resize.scss                               | SCSS       |          4 |          1 |          2 |          7 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_screen-reader.scss                        | SCSS       |         21 |          9 |          4 |         34 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_size.scss                                 | SCSS       |          5 |          1 |          2 |          8 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_table-row.scss                            | SCSS       |         29 |          5 |          6 |         40 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_text-emphasis.scss                        | SCSS       |         12 |          2 |          3 |         17 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_text-hide.scss                            | SCSS       |          8 |          2 |          2 |         12 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_text-truncate.scss                        | SCSS       |          5 |          2 |          2 |          9 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_transition.scss                           | SCSS       |         14 |          1 |          2 |         17 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\mixins\_visibility.scss                           | SCSS       |          4 |          2 |          3 |          9 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_align.scss                             | SCSS       |          6 |          1 |          2 |          9 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_background.scss                        | SCSS       |         14 |          1 |          5 |         20 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_borders.scss                           | SCSS       |         52 |          7 |         17 |         76 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_clearfix.scss                          | SCSS       |          3 |          0 |          1 |          4 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_display.scss                           | SCSS       |         13 |          7 |          7 |         27 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_embed.scss                             | SCSS       |         33 |          1 |          6 |         40 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_flex.scss                              | SCSS       |         39 |          4 |          9 |         52 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_float.scss                             | SCSS       |          8 |          1 |          3 |         12 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_overflow.scss                          | SCSS       |          3 |          1 |          2 |          6 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_position.scss                          | SCSS       |         24 |          3 |          6 |         33 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_screenreaders.scss                     | SCSS       |          6 |          3 |          3 |         12 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_shadows.scss                           | SCSS       |          4 |          1 |          2 |          7 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_sizing.scss                            | SCSS       |         11 |          3 |          7 |         21 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_spacing.scss                           | SCSS       |         64 |          4 |          6 |         74 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_stretched-link.scss                    | SCSS       |         13 |          5 |          2 |         20 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_text.scss                              | SCSS       |         39 |         11 |         23 |         73 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\utilities\_visibility.scss                        | SCSS       |          6 |          4 |          4 |         14 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\bootstrap\vendor\_rfs.scss                                  | SCSS       |        126 |         43 |         36 |        205 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\test\scss\style.scss                                                  | SCSS       |        444 |         16 |         46 |        506 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\css\bootstrap.min.css                        | CSS        |          1 |          8 |          0 |          9 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\css\jquery.bxslider.css                      | CSS        |         28 |         21 |          8 |         57 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\css\responsive.css                           | CSS        |         69 |          3 |          4 |         76 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\css\style.css                                | CSS        |        118 |         12 |          1 |        131 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\font\font-awesome.min.css                    | CSS        |          1 |          0 |          0 |          1 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\font\font.css                                | CSS        |         10 |          0 |          0 |         10 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\font\fonts\bebas___-webfont.svg              | XML        |      2,808 |          0 |          0 |      2,808 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\font\fonts\fontawesome-webfont.svg           | XML        |        399 |          0 |          0 |        399 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\js\bootstrap.min.js                          | JavaScript |          1 |          5 |          0 |          6 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\js\jquery-min.js                             | JavaScript |          3 |          0 |          0 |          3 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\js\jquery.bxslider.js                        | JavaScript |        784 |        464 |         67 |      1,315 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\assets\js\selectnav.min.js                          | JavaScript |          1 |          5 |          0 |          6 |
+| c:\Users\DHAIRYASHIL\Desktop\PROJECT_3 X\Charge Slots\the-news-reporter\index.html                                          | HTML       |        332 |          0 |          0 |        332 |
+| Total                                                                                                                       |            |    104,852 |      3,323 |      5,732 |    113,907 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
